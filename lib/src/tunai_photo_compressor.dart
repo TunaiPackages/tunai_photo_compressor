@@ -4,7 +4,7 @@ import 'dart:io';
 
 import 'package:flutter_image_compress/flutter_image_compress.dart';
 
-class PhotoCompressor {
+class TunaiPhotoCompressor {
   static Future<File> compress({
     required File file,
     required double maxSizeInKB,
